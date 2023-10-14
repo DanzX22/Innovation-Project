@@ -1,0 +1,55 @@
+/* Md Araf Uddin(103485354)
+/* Style for labels, aligning text to the left and providing padding */
+label {
+  text-align: left;
+  padding: 0.10rem 0;
+}
+
+/* Style for input fields, providing margin, padding, and rounded corners */
+input {
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  border-radius: 10px;
+}
+
+/* Style for buttons, including border, background color, padding, rounded corners, cursor, and text color */
+button {
+  border: none;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Style for links with class 'link-btn', including margin, background, color, and text decoration */
+.link-btn {
+  margin: 0.3rem 0;
+  background: none;
+  color: rgb(25, 67, 67);
+  text-decoration: underline;
+}
+
+/* Font family settings for labels, inputs, buttons, and link buttons */
+label {
+  font-family: "New Font Name", 'Arial';
+}
+
+input {
+  font-family: "New Font Name", 'Arial';
+}
+
+button {
+  font-family: "New Font Name", 'Arial';
+}
+
+.link-btn {
+  font-family: "New Font Name", 'Arial';
+}
+
+/* Style for the form containers with class 'auth-form-container', including the login and register forms */
+.auth-form-container .login-form,
+.auth-form-container .register-form {
+  display: flex;
+  flex-direction: column;
+}

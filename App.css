@@ -1,0 +1,45 @@
+/* This section sets the overall style for the 'App' component and centers its content. */
+.App {
+  text-align: center;
+}
+
+/* Styling for the 'App-logo' class, which is likely used for an image or logo. */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* This media query adds animation only when user prefers reduced motion. */
+@media (prefers-reduced-motion: no-preference) {
+  /* Animation for the 'App-logo' class, making it spin infinitely. */
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Styling for the 'App-header' class, typically used for the header section. */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Styling for hyperlinks with the 'App-link' class. */
+.App-link {
+  color: #61dafb;
+}
+
+/* Keyframes animation definition for spinning the 'App-logo'. */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

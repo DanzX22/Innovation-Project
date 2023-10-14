@@ -1,0 +1,19 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0; /* To start the fade, we Set opacity to 0 (nothing is shown) */
+      transform: translateX(-20px); /* this makes the fade in move from left to right*/
+    }
+    to {
+      opacity: 1; /* At the end of the fade, opacity is set to 1 (content is now shown) */
+      transform: translateX(0); /* by setting it to 0, it makes it so that everything is in its position*/
+    }
+  }
+  
+  .grid {
+    .grid {
+      opacity: 0; /* Initially, set opacity to 0 (nothing is) */
+      transform: translateX(-20px); /* Initially, apply a horizontal translation of -20px */
+      animation: fadeIn 1s ease-in-out forwards; /* Apply the 'fadeIn' animation with 1s duration*/
+    }
+  }
+  
